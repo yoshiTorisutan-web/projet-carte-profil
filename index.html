@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carte de Profil Animée</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Favicon rond vert -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%2310B981'/></svg>"
+      type="image/svg+xml"
+    />
+  </head>
+  <body class="flex items-center justify-center min-h-screen">
+    <div class="profile-card" id="profileCard">
+      <!-- Photo et nom -->
+      <img
+        src="https://i.pravatar.cc/150?img=47"
+        alt="Profil"
+        class="profile-img"
+      />
+      <h2 class="profile-name">Sophie Martin</h2>
+      <p class="profile-title">
+        Développeuse Web & UX Designer | Passionnée par la création digitale
+      </p>
+
+      <!-- Bio courte -->
+      <p class="profile-bio">
+        Développeuse web spécialisée en expérience utilisateur et design
+        interactif. J'aime créer des interfaces élégantes et intuitives pour des
+        projets innovants.
+      </p>
+
+      <!-- Compétences -->
+      <div class="skills">
+        <span class="skill-tag">HTML/CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">React JS</span>
+        <span class="skill-tag">UX/UI</span>
+        <span class="skill-tag">Figma</span>
+      </div>
+
+      <!-- Expérience rapide -->
+      <p class="profile-exp">
+        Expérience : 3 ans en agence digitale et 2 ans en freelance sur des
+        projets web et mobile.
+      </p>
+
+      <!-- Réseaux sociaux -->
+      <div class="socials">
+        <a href="https://linkedin.com/in/sophiemartin" class="btn-social"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://sophiemartin-portfolio.com" class="btn-social"
+          ><i class="fas fa-globe"></i
+        ></a>
+        <a href="https://github.com/sophiemartin" class="btn-social"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
