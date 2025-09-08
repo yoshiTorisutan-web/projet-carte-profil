@@ -1,4 +1,4 @@
-# Carte de Profil Animée
+<h1 align="center">🟢 Projet Carte Profil</h1>  
 
 Une carte de profil moderne et interactive réalisée en **HTML, CSS (Tailwind)** et **JavaScript** avec une charte graphique verte. Le projet met en avant un design **minimaliste et moderne**, idéal pour un portfolio ou une page “À propos”.
 
